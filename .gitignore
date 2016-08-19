@@ -1,0 +1,11 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# platforms
+platforms/ios
+platforms/android
