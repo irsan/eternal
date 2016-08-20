@@ -9,3 +9,5 @@
 # platforms
 platforms/ios
 platforms/android
+
+www/bower_components
