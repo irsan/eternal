@@ -1,0 +1,18 @@
+<div layout="column" layout-align="center center" flex class="setupProfile">
+    <div class="hi">
+        Hi <span style="font-weight: bold;">{{me.displayName}}</span>,<br/>
+    </div>
+    <div class="welcome">
+        Welcome to Eternal App. Please setup your profile image and enter your mobile number below.
+    </div>
+    <img src="{{profileImage}}" class="profile" ng-click="takePicture()">
+    <md-input-container class="inputDiv">
+        <label>Mobile Phone Number</label>
+        <input ng-model="me.mobile" type="tel">
+    </md-input-container>
+    <div layout="row" layout-align="center center" class="buttonDiv">
+        <div>
+            <md-button class="md-raised md-primary" ng-click="update()">Update & Continue</md-button>
+        </div>
+    </div>
+</div>

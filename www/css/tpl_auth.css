@@ -1,0 +1,24 @@
+.auth {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.auth .logo {
+    width: 104px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+
+.auth .commitment {
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.auth .loginDiv {
+    font-size: 1em;
+    height: 50px;
+    margin-top: 20px;
+}
